@@ -68,7 +68,7 @@ BinaryUnits = namedtuple(
         'EXBIBYTE', 'EB',
         'ZEBIBYTE', 'ZB',
         'YOBIBYTE', 'YB',
-      	'QUIBIBYTE', 'QB',
+      	'QUINIBYTE', 'QB',
     )
 )(
     BYTE, BYTE,
@@ -80,7 +80,7 @@ BinaryUnits = namedtuple(
     EXBIBYTE, EXBIBYTE,
     ZEBIBYTE, ZEBIBYTE,
     YOBIBYTE, YOBIBYTE,
-  	QUIBIBYTE, QUIBIBYTE,
+  	QUINIBYTE, QUINIBYTE,
 )
 DecimalUnits = namedtuple(
     'DecimalUnits', (
@@ -106,7 +106,7 @@ DecimalUnits = namedtuple(
     EXABYTE, EXABYTE,
     ZETTABYTE, ZETTABYTE,
     YOTTABYTE, YOTTABYTE,
-  	QUIBIBYTE, QUIBIBYTE,
+  	QUINIBYTE, QUINIBYTE,
 )
 
 
